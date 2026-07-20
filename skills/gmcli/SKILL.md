@@ -29,15 +29,11 @@ gmcli accounts list
 ```
 
 If no accounts, guide the user through setup:
-1. Ask if they have a Google Cloud project with Gmail API enabled
-2. If not, walk them through the [shared Cloud Console OAuth setup](../shared/setup.md) (use the Gmail API enable link above)
-3. Have them download the OAuth credentials JSON
-4. Run: `gmcli accounts credentials ~/path/to/credentials.json`
-5. Run: `gmcli accounts add <email>` (use `--manual` for browserless OAuth)
+1. Get credentials JSON from the Cloud Console OAuth setup above
+2. Run: `gmcli accounts credentials ~/path/to/credentials.json`
+3. Run: `gmcli accounts add <email>` (use `--manual` for browserless OAuth)
 
 ## Usage
-
-Run `gmcli --help` for full command reference.
 
 Common operations:
 - `gmcli <email> search "<query>"` - Search emails using Gmail query syntax
