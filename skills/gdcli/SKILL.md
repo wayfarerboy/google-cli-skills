@@ -1,6 +1,6 @@
 ---
 name: gdcli
-description: Google Drive CLI for listing, searching, uploading, downloading, and sharing files and folders.
+description: Use when the user wants to list, search, upload, download, or share Drive files and folders
 ---
 
 # Google Drive CLI
