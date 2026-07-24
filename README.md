@@ -1,21 +1,9 @@
-# Google CLI Skills
+# ⚠️ ARCHIVED — MOVED TO [pi-toolbox](https://github.com/VeloCraft/pi-toolbox)
 
-Pi coding agent skills for Google CLI tools by [@mariozechner](https://github.com/mariozechner).
+These skills are now maintained at **[VeloCraft/pi-toolbox](https://github.com/VeloCraft/pi-toolbox)**:
 
-## Skills
+- `gccli` → `skills/gccli/`
+- `gdcli` → `skills/gdcli/`
+- `gmcli` → `skills/gmcli/`
 
-| Skill | Description |
-|-------|-------------|
-| [gmcli](./skills/gmcli/SKILL.md) | Gmail CLI — search emails, read threads, send messages, manage drafts, handle labels and attachments |
-| [gdcli](./skills/gdcli/SKILL.md) | Google Drive CLI — list, search, upload, download, or share Drive files and folders |
-| [gccli](./skills/gccli/SKILL.md) | Google Calendar CLI — list calendars, view, create, update events, or check availability |
-
-## Setup
-
-One-time OAuth setup is required — follow the [shared Cloud Console OAuth setup](./skills/shared/setup.md). Each skill's `SKILL.md` includes its own install command and the specific API enable link for step 2.
-
-## Install as Pi Package
-
-```bash
-pi install git:github.com/wayfarerboy/google-cli-skills
-```
+All future development, issues, and PRs should be directed there. This repository is read-only.
